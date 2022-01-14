@@ -1,0 +1,212 @@
+HTML{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+.Main_Navbar{
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.Navbar{
+    margin: 0 auto;
+    width: 90%;
+    font-family: "europa", sans-serif;
+    animation: Slidedown 2s;
+}
+
+.Navbar>a>button{
+    margin-top: -8px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    float: right;
+    background-color:white; 
+    color: #0060ff;
+    border: solid 2px #0060ff;
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px #0060ff;
+    border-radius: 5px;
+
+}
+
+.Navbar>a>button:hover{
+    background-color:#0060ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Navbar>a>button:active{
+    background-color: #002869;
+    transition: 0.3s;
+}
+
+.Navbar>a{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+}
+
+.Navbar>a:hover{
+    color: #0060ff;
+    transition: 0.4s;
+}
+
+.Navbar>a:active{
+    color: #002869;
+    transition: 0.3s;
+}
+
+@keyframes Slidedown {
+    0% {
+        opacity:0;
+        transform:  translateY(-20px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translateY(0)  ;
+    }
+}
+
+.social_media_icons{
+    display: inline-block;
+    position:absolute;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.social_media_icon{
+    padding: 5px;
+}
+a>.social_media_icon{
+    color: gray;
+    transition: 1s;
+}
+
+a>.social_media_icon:hover{
+    color: #0060ff;
+    transition: 0.5s;
+}
+
+a>.social_media_icon:active{
+    color: #002869;
+    transition: 0.5s;
+}
+
+.MobileMenu{
+    display: none;
+}
+
+.Mainmenu_opened{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .social_media_icons{
+        display: none;
+    }
+    .Navbar>a{
+        display: none;
+    }
+    .MobileMenu{
+        display: block;
+        float: right;
+        padding-right: 30px;
+        font-size: 30px;
+        margin-top: -4rem;
+        color: #0060ff;
+        z-index: 566455645645;
+    }
+    .Mainmenu_opened{
+        display: block;
+        background-color: whitesmoke;
+        box-shadow: 0px 8px 7px 1px gray;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+        font-size: 20px;
+        top:0;
+        left: 0;
+        right: 0;
+        transition: 0.5s ease;
+        text-align: center;
+        
+    }
+
+    .Mainmenu_opened>a>button{
+        margin-top: 50px;
+        padding: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+        text-align: center;
+        background-color:white; 
+        color: #0060ff;
+        border: solid 2px #0060ff;
+        transition: 0.4s;
+        box-shadow: 0px 0px 5px #0060ff;
+        border-radius: 5px;
+    
+    }
+    
+    .Mainmenu_opened>a>button:hover{
+        background-color:#0060ff;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    .Mainmenu_opened>a>button:active{
+        background-color: #002869;
+        transition: 0.3s;
+    }
+    
+    .Mainmenu_opened>a{
+
+        margin: 20px;
+        margin-top: 100px;
+        text-decoration: none;
+        color: gray;
+        transition: 1s;
+    }
+    
+    .Mainmenu_opened>a:hover{
+        color: #0060ff;
+        transition: 0.4s;
+    }
+    
+    .Mainmenu_opened>a:active{
+        color: #002869;
+        transition: 0.3s;
+    }
+    .closeMenu{
+        padding-right: 30px;
+        font-size: 20px !important;
+        float: right;
+        margin-top: -4rem;
+        display: block;
+        color: gray;
+        transition: 1s ease;
+        color: #0060ff;
+        
+    }
+    .closeMenu:hover{
+        color: #488eff;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+}

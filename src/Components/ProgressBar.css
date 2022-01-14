@@ -1,0 +1,113 @@
+.Progressbar{
+  margin-top: 80px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.Bar {
+    width: 100%;
+    float: right;
+    margin: 5px;
+    transition: 1.2s 0.2s width ease-in-out;
+    background-color: white;
+    font-family: "eurostile", sans-serif;
+
+  }
+  
+  .Bar>.HTML {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 90%;
+    height: 30px;
+    animation: HTMLBar 1.4s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+  .Bar>.CSS {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 90%;
+    height: 30px;
+    animation: CSSBar 1.5s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+  .Bar>.JavaScript {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 70%;
+    height: 30px;
+    animation: JavaScriptBar 1.6s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+  .Bar>.React {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 70%;
+    height: 30px;
+    animation: ReactBar 1.7s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+  .Bar>.UI-Design {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 75%;
+    height: 30px;
+    animation: UI-DesignBar 1.8s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+  .Bar>.Photoshop {
+
+    background-image: linear-gradient(#0060ff, #024ec9);
+    width: 90%;
+    height: 30px;
+    animation: PhotoshopBar 1.9s ease-in-out;
+    animation-fill-mode:both;
+
+  }
+
+  .BarText{
+
+      position: absolute;
+      padding: 5px;
+      color: white;
+      font-size: 20px;
+      font-family:monospace;
+  }
+
+  .percentage{
+
+      float: Right;
+      text-align: center;
+      padding: 5px;
+  }
+
+  @keyframes HTMLBar {
+    0% { width: 0; }
+    90% { width: 90%; }
+  }
+  @keyframes CSSBar {
+    0% { width: 0; }
+    90% { width: 90%; }
+  }
+  @keyframes JavaScriptBar {
+    0% { width: 0; }
+    90% { width: 70%; }
+  }
+  @keyframes ReactBar {
+    0% { width: 0; }
+    90% { width: 70%; }
+  }
+  @keyframes UI-DesignBar {
+    0% { width: 0; }
+    90% { width: 75%; }
+  }
+  @keyframes PhotoshopBar {
+    0% { width: 0; }
+    90% { width: 90%; }
+  }
+

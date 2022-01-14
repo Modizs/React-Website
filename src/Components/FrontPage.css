@@ -1,0 +1,93 @@
+.Front_Page{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+    animation: Slideup2 ease 2s;
+    font-family: "europa", sans-serif;
+    
+}
+
+.Front_Page>.Front_Page_intro{
+    font-size: 60px;
+    font-weight: bold;
+    color: #0060ff;
+}
+.Front_Page>b{
+    font-weight:normal;
+    font-size: 20px;
+    color: black;
+}
+.Front_Page>img{
+    margin-top: 40px;
+}
+
+.Front_Page>a>button {
+    margin: 20px;
+    margin-top: 33px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family:"europa", sans-serif;
+    background-color:white; 
+    color: #0060ff;
+    border: solid 2px #0060ff;
+    transition: 1s;
+    box-shadow: 0px 0px 5px #0060ff;
+    border-radius: 10px;
+}
+
+.Front_Page>a>button:hover{
+    background-color:#0060ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Front_Page>a>button:active{
+    background-color: #002869;
+    transition: 0.3s;
+}
+
+.rotate{
+    display: inline-block;
+    animation: slideup1 1s ease-in-out infinite;
+}
+
+@keyframes slideup1 {
+    0%,
+    100% {
+      transform: translate(0, -5px);
+    }
+  
+    50% {
+      transform: translate(0, 5px);
+    }
+  }
+
+  @keyframes Slideup2 {
+    0% {
+        opacity:0;
+        transform:  translateY(20px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translateY(0)  ;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Front_Page>.Front_Page_intro{
+        font-size: 40px;
+        font-weight: bold;
+        color: #0060ff;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .Front_Page>.Front_Page_intro{
+        font-size: 30px;
+        font-weight: bold;
+        color: #0060ff;
+    }
+}

@@ -1,0 +1,72 @@
+.Experince{
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+    font-family: "eurostile", sans-serif;
+}
+.Experince_container{
+    display: flex;
+    
+}
+.Experince>h1 {
+    text-align: center;
+    color: #0060ff;
+    font-size: 50px;
+}
+.Experince>hr{
+    margin-top: -30px;
+    border-top: 5px solid #0060ff;
+    width: 10%;
+    margin-bottom: 80px;
+}
+
+.Experince_container>div>h2{
+    margin-top: 20px;
+    color: #363636;
+}
+
+.Experince_container>div>b{
+    font-size: 17px;
+    color: #666666;
+
+}
+
+.Company {
+    color: #0060ff;
+}
+
+.work_experince{
+
+    margin: 10px;
+}
+
+.Experince_container>div>img{
+    border-radius: 100px;
+    box-shadow: 0 0 10px #0060ff;
+    justify-content: center;
+    text-align: center;
+}
+
+.Experince_container>div {
+    display: table-cell;
+    top: 0;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .Experince_container{
+        display: block;
+    }
+    .Experince_container>div{
+        display: block;
+        width: 100% !important;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .Experince_container>div>img {
+        display: none;
+    }
+}

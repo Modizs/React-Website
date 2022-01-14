@@ -1,0 +1,51 @@
+.Skills{
+    margin-top: -110px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 4px gray;
+    padding: 20px;
+
+}
+
+.Skills_Icons{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Skills_Icons>div>h1{
+    margin-top: -10px;
+    color: #0060ff;
+    font-family:Verdana ;
+}
+.Skills_Icons>div{
+    display:table-cell;
+    width: 33%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    line-height:auto;
+}
+.Skills_Icons>div>b{
+    color: #2A2B2DFF;
+    font-family:Verdana ;
+    width: 33%;
+}
+
+.scrollanimate{
+    transition: 2s ease;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Skills_Icons>div{
+        display:block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0 auto;
+        line-height:auto;
+    }
+}

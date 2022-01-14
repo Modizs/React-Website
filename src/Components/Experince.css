@@ -59,6 +59,7 @@
 @media only screen and (max-width: 1000px) {
     .Experince_container{
         display: block;
+        width: 100%;
     }
     .Experince_container>div{
         display: block;

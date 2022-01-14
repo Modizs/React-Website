@@ -115,4 +115,13 @@ a>.social_media_icon_footer:active{
     .Contact-me>a>button{
         font-size: 20px;
     }
+    .Footer-container{
+        margin-top: -100px;
+        background-image: linear-gradient(#0060ff, #003b99);
+        width: 100%;
+        height: 780px;
+        text-align: center;
+        font-family: "eurostile", sans-serif;
+        
+    }
 }

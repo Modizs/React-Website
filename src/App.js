@@ -8,6 +8,10 @@ import ProgressBar from './Components/ProgressBar'
 import Experince from './Components/Experince'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
+import smoothscroll from 'smoothscroll-polyfill';
+
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 
 

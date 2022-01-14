@@ -114,6 +114,13 @@ a>.social_media_icon:active{
 }
 
 @media only screen and (max-width: 1200px) {
+    
+    .Main_Navbar{
+        position: fixed !important;
+        margin-top: -13rem;
+        z-index: 99999;
+    }
+
 
     .social_media_icons{
         display: none;

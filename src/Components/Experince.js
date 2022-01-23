@@ -5,9 +5,10 @@ import ProgressBar from './ProgressBar'
 
 function Experince() {
     return (
-        <div class="Container">
-            <div class="Inner_container">
-                <div class="Experince" id="Experience">
+        <div id="Experience">
+        <div class="Container" id="Experience">
+            <div class="Inner_container" >
+                <div class="Experince" >
                     <h1 data-aos="fade-up" data-aos-duration="1000"> Experience </h1>
                     <hr data-aos="fade-up" data-aos-duration="2000" />
                     <div class="Experince_container">
@@ -50,6 +51,7 @@ function Experince() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

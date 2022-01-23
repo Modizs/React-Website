@@ -14,7 +14,7 @@ function Navagation() {
         return Mainmenu =
             <div className="Mainmenu_opened">
                 <div className="closeMenu">
-                <FontAwesomeIcon icon={faWindowClose} onClick={() => setShowMenu(false)} />
+                <FontAwesomeIcon icon={faWindowClose} style={{fontSize: "30px"}} onClick={() => setShowMenu(false)} />
                 </div>
                 <a data-aos="fade-up" data-aos-duration="2000" href="#Projects"><button>
                     Projects

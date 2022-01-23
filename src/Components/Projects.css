@@ -18,7 +18,7 @@
     color: #222222;
     font-size: 25px;
 }
-.Projects>hr{
+hr{
     margin-top: -30px;
     border-top: 5px solid #0060ff;
     width: 10%;
@@ -29,7 +29,7 @@
 
 .Projects>a {
   display:table-cell;
-  width: 33%;
+  width: 25%;
   height: 100%;
   padding: 0;
   margin: 0 auto;

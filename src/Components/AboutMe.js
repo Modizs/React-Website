@@ -13,9 +13,9 @@ const AboutMe = () => {
     }, [])
     return (
         <div class="AboutMe_Container">
-            <div class="AboutMe_Container">
+            <div class="AboutMe_Container" id="AboutMe">
                 <div class="Inner_container">
-                    <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="AboutMe" id="AboutMe">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="AboutMe">
                         <h1>Hi, I’m Moe. Nice to meet you.</h1>
                         <h2>I'm a Front-end Developer/Designer with well-developed interpersonal skills and technical
 expertise to engage with consumers and promote products/services through e-commerce, content web

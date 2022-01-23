@@ -1,0 +1,214 @@
+.GraphicDesignContainer{
+
+ max-width: 900px;
+ height: 500px;
+ margin: 100px auto 0;
+ position: relative;
+ overflow: hidden;
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.graphicDesignH1 h1 {
+    margin-top: 150px;
+
+    text-align: center;
+    color: #0060ff;
+    font-size: 50px;
+}
+
+.myGraphicDesignInsta{
+    display: block;
+    margin-top: 100px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.graphicDesignH1 h3 {
+    text-align: center;
+}
+
+.myGraphicDesignInsta h3 a{
+    font-size: 30px;
+    color: #0060ff;
+    transition: 0.6s ease-in-out;
+}
+
+.myGraphicDesignInsta h3 a:hover{
+    font-size: 30px;
+    color: #3b63a3;
+    transition: 0.4s ease-in-out;
+}
+
+  @media screen and (max-width: 700px){
+    .container-slider {
+      margin: 100px 10px 0;
+    }
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .active-anim {
+    opacity: 1;
+  }
+  
+  .btn-slide {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    border: 1px solid rgba(34, 34, 34, 0.287);
+    position: absolute;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btn-slide img {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+  }
+  .prev {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-60%);
+    opacity: 0.3;
+    transition: 0.6s ease-in;
+
+  }
+  .next {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-60%);
+    opacity: 0.3;
+    transition: 0.6s ease-in;
+
+  }
+
+  .prev:hover , .next:hover {
+      transition: 0.4s ease-in;
+      opacity: 1;
+  }
+  
+  
+  .container-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    margin: 0 5px;
+    background: #f1f1f1;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .dot.active {
+    background: rgb(32, 32, 32);
+    transition: 1s;
+  }
+
+  @media screen and (max-width: 997px){
+    .GraphicDesignContainer{
+        
+        max-width: 700px;
+        height: 380px;
+        margin: 100px auto 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+  }
+
+  @media screen and (max-width: 749px){
+    .GraphicDesignContainer{
+        
+        max-width: 600px;
+        height: 330px;
+        margin: 100px auto 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+  }
+
+  @media screen and (max-width: 654px){
+    .GraphicDesignContainer{
+        
+        max-width: 500px;
+        height: 280px;
+        margin: 100px auto 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+  }
+
+  @media screen and (max-width: 550px){
+    .GraphicDesignContainer{
+        
+        max-width: 400px;
+        height: 225px;
+        margin: 100px auto 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+  }
+
+  @media screen and (max-width: 440px){
+    .GraphicDesignContainer{
+        
+        max-width: 300px;
+        height: 170px;
+        margin: 100px auto 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+
+       .btn-slide {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #f1f1f1;
+        border: 1px solid rgba(34, 34, 34, 0.287);
+        position: absolute;
+        font-size: 20px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 3px solid #f1f1f1;
+        margin: 0 5px;
+        background: #f1f1f1;
+        cursor: pointer;
+        transition: 1s;
+      }
+
+
+
+  }

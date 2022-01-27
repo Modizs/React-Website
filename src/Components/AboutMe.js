@@ -12,7 +12,7 @@ const AboutMe = () => {
         Aos.init({duration: 2000})
     }, [])
     return (
-        <div class="AboutMe_Container">
+        <div class="AboutMe_Container" >
             <div class="AboutMe_Container" id="AboutMe">
                 <div class="Inner_container">
                     <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="AboutMe">

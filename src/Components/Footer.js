@@ -18,7 +18,7 @@ function Footer(){
                     </div>
                     <br/><br/><br/>
                     <b data-aos="fade-in" data-aos-duration="3000">This website is made by me &copy; 2022</b><br/><br/>
-                    <b data-aos="fade-in" data-aos-duration="3000">Made with REACT.</b> <img data-aos="fade-in" data-aos-duration="1000" src={require('../Images/React.png')} height={30} width={35} /> <b data-aos="fade-in" data-aos-duration="1000"> All Rights Reserved.</b>
+                    <b data-aos="fade-in" data-aos-duration="3000">Made with REACT. </b> <img data-aos="fade-in" data-aos-duration="1000" src={require('../Images/React.png')} height={30} width={35} /> <b data-aos="fade-in" data-aos-duration="1000"> All Rights Reserved.</b>
                 <br/><br/><br/><br/><br/><br/>
                 <a class="Backtop" href='#'><FontAwesomeIcon  icon={faArrowUp} /></a>
                 </div>

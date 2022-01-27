@@ -13,7 +13,7 @@
     color: white;
     font-family: "eurostile", sans-serif;
     /*animation: fadeIn;  referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
+    animation-duration: 2s; 
 }
 .AboutMe>h2{
     font-weight: lighter;
